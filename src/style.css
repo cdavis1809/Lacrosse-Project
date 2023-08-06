@@ -97,14 +97,17 @@ footer a {
   color: white;
   opacity: 0.7;
   text-decoration: none;
-  line-height: 28px;
+  line-height: 32px;
 }
 footer a:hover {
-  color: #9de858;
+  color: #adf767;
+  opacity: 1;
   font-weight: bold;
 }
 footer p {
   margin-right: 40px;
+  opacity: 0.7;
+  line-height: 28px;
 }
 .footer-grid {
   display: grid;
@@ -149,10 +152,21 @@ footer p {
   margin-top: 0;
   margin-bottom: 30px;
 }
-.gameday {
+.gametime {
+  text-align: center;
+  color: #9de858;
   padding: 60px;
-  background: linear-gradient(#9de858, #17220c);
+  background: linear-gradient(#17220c, #8cce4e, #17220c);
+}
+.gametime-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px 0;
 }
 .text-center {
   text-align: center;
+}
+.acknowlegment {
+  margin-top: 60px;
 }
