@@ -70,6 +70,46 @@ iframe {
   width: 70%;
   aspect-ratio: 16/9;
 }
+footer {
+  background-image: linear-gradient(
+      rgba(23, 34, 14, 0.8),
+      rgba(23, 34, 14, 0.8)
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/353/original/lacrosse-header.jpeg?1691322021");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: left;
+  padding: 60px;
+  max-width: 100%;
+  font-family: var(--primary-font-family);
+}
+footer h3 {
+  letter-spacing: 2px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+  line-height: 28px;
+}
+footer a:hover {
+  color: #9de858;
+  font-weight: bold;
+}
+footer p {
+  margin-right: 40px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -95,6 +135,7 @@ iframe {
 .img-fluid {
   max-width: 100%;
   border-radius: 4px;
+  margin-bottom: 10px;
 }
 .play {
   background-color: #9de858;
@@ -107,6 +148,10 @@ iframe {
 .play h2 {
   margin-top: 0;
   margin-bottom: 30px;
+}
+.gameday {
+  padding: 60px;
+  background: linear-gradient(#9de858, #17220c);
 }
 .text-center {
   text-align: center;
