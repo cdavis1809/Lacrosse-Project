@@ -1,0 +1,113 @@
+:root {
+  --primary-font-family: Poppins, serif;
+  --secondary-font-family: Playfair Display, serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body {
+  background-color: #17220c;
+}
+header {
+  background-image: linear-gradient(
+      rgba(23, 34, 14, 0.8),
+      rgba(23, 34, 14, 0.8)
+    ),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/280/original/stick-header.jpg?1691257137");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  width: 100%;
+}
+header h3 {
+  font-family: var(--primary-font-family);
+  margin: 0;
+  padding: 0;
+  letter-spacing: 5px;
+  color: #9de858;
+  font-size: 28px;
+  margin-top: 90px;
+}
+header h2 {
+  font-family: var(--primary-font-family);
+  margin: 0;
+  padding: 0;
+  color: #9de858;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 200px;
+  font-family: var(--secondary-font-family);
+  padding: 0;
+  line-height: normal;
+  margin: 10px;
+}
+main h2 {
+  font-size: 50px;
+  font-family: var(--secondary-font-family);
+  margin: 15px 0;
+}
+main h3 {
+  font-family: var(--primary-font-family);
+  margin: 0;
+  padding: 0;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+main p {
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+iframe {
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  aspect-ratio: 16/9;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #9de858;
+  color: #17220c;
+  padding: 40px;
+  grid-gap: 30px;
+}
+.equipment {
+  background: linear-gradient(0.25turn, #17220c, #9de858, #17220c);
+  padding: 60px;
+  text-align: center;
+  margin: 0;
+}
+.equipment p {
+  margin: 20px 150px;
+}
+.equipment img {
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+.img-fluid {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.play {
+  background-color: #9de858;
+  padding: 60px;
+  text-align: center;
+}
+.play h3 {
+  letter-spacing: 3px;
+}
+.play h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.text-center {
+  text-align: center;
+}
