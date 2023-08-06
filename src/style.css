@@ -19,7 +19,7 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 100px 0;
+  padding: 50px 0;
   width: 100%;
 }
 header h3 {
@@ -34,7 +34,7 @@ header h3 {
 header h2 {
   font-family: var(--primary-font-family);
   margin: 0;
-  padding: 0;
+  padding-bottom: 60px;
   color: #9de858;
   letter-spacing: 3px;
 }
